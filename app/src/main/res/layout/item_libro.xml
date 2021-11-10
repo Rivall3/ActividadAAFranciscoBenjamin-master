@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/a"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Categoria:"
+            android:textColor="#EDE3E3" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Categoria"
+            android:textColor="#EDE3E3" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtFechapublicacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fecha de publicación"
+        android:textColor="#EDE3E3" />
+
+    <TextView
+        android:id="@+id/txtTitulolibro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Titulo"
+        android:textColor="#EDE3E3" />
+
+    <TextView
+        android:id="@+id/txtDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Descripcion"
+        android:textColor="#EDE3E3" />
+
+    <TextView
+        android:id="@+id/txtCopiasLib"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Copias del libro"
+        android:textColor="#EDE3E3" />
+
+    <TextView
+        android:id="@+id/txtPaginaslibro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Paginas del libro"
+        android:textColor="#EDE3E3" />
+
+    <TextView
+        android:id="@+id/txtAutor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Autor del libro"
+        android:textColor="#EDE3E3" />
+
+    <TextView
+        android:id="@+id/txtEditorial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Editorial del libro"
+        android:textColor="#EDE3E3" />
+
+    <TextView
+        android:id="@+id/txtEstante"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Estante del libro"
+        android:textColor="#FAF9F9" />
+</LinearLayout>
